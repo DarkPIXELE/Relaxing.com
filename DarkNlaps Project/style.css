@@ -1,0 +1,62 @@
+body{ 
+text-align: center;}
+    
+
+  #WTDOS {
+color:rgb(0, 0, 0)}
+
+/* style.css */
+
+/* Style the audio player */
+audio {
+  width: 400px; /* Set the width of the audio player */
+  height: 40px; /* Set the height of the audio player */
+  border: 1px solid #ccc; /* Add a classic border */
+  border-radius: 5px; /* Add a slight rounded corner effect */
+  background-color: #f0f0f0; /* Set the background color */
+  padding: 10px; /* Add some padding */
+}
+
+/* Style the audio controls */
+audio::-webkit-media-controls {
+  background-color: #fff; /* Set the background color of the controls */
+  color: #333; /* Set the text color of the controls */
+  border: 1px solid #ccc; /* Add a classic border */
+  border-radius: 5px; /* Add a slight rounded corner effect */
+}
+
+/* Style the play/pause button */
+audio::-webkit-media-controls-play-button {
+  background-color: #ccc; /* Set the background color of the play/pause button */
+  border: none; /* Remove the default border */
+  border-radius: 50%; /* Add a circular shape to the button */
+  padding: 10px; /* Add some padding */
+  cursor: pointer; /* Change the cursor shape to a pointer */
+}
+
+/* Style the volume control */
+audio::-webkit-media-controls-volume-slider {
+  width: 100px; /* Set the width of the volume slider */
+  height: 10px; /* Set the height of the volume slider */
+  background-color: #ccc; /* Set the background color of the volume slider */
+  border-radius: 5px; /* Add a slight rounded corner effect to the volume slider */
+}
+
+/* Style the progress bar */
+audio::-webkit-media-controls-timeline {
+  background-color: #ccc; /* Set the background color of the progress bar */
+  height: 10px; /* Set the height of the progress bar */
+  border-radius: 5px; /* Add a slight rounded corner effect to the progress bar */
+}
+
+/* Style the time display */
+audio::-webkit-media-controls-current-time-display {
+  color: #333; /* Set the text color of the time display */
+  font-size: 12px; /* Set the font size of the time display */
+}
+
+/* Style the duration display */
+audio::-webkit-media-controls-duration-display {
+  color: #333; /* Set the text color of the duration display */
+  font-size: 12px; /* Set the font size of the duration display */
+}
